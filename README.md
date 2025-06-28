@@ -42,3 +42,79 @@ This project serves as:
 
 ## 📦 Installation
 
+```bash
+git clone https://github.com/your-username/cinereact.git
+cd cinereact
+npm install
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file in the root:
+
+```env
+NEXT_PUBLIC_TMDB_API_KEY=your_api_key_here
+```
+
+You can get a free API key at [TMDb Developer Portal](https://developer.themoviedb.org/).
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots or a short demo GIF here)*  
+Example:  
+![Cinereact Screenshot](./public/demo.png)
+
+---
+
+## 🧱 Project Structure
+
+```
+/components      → Reusable UI components (MovieCard, Header, etc.)
+/pages           → Next.js pages
+/styles          → Global styles or Tailwind config
+/utils           → Helper functions
+/hooks           → Custom React hooks
+```
+
+---
+
+## 📚 What I Learned
+
+- Deepened knowledge of **Next.js routing, SSR/ISR**
+- Improved use of **React hooks** and component organization
+- Hands-on experience with **responsive UI & user interaction**
+- API integration and **environment-based configuration**
+
+---
+
+## 📈 Future Plans
+
+- ✅ Add login & user profiles
+- 🎞️ Trailer modal with embedded YouTube players
+- 💬 User reviews and comments (mock or Firebase)
+- 🌍 Multi-language support (i18n)
+- 📦 Turn it into an npm package starter (`cinereact-template`)
+
+---
+
+## 🧑‍💻 About the Creator
+
+Hi, I’m **[Your Name]**, a React developer passionate about clean design and real-world applications.  
+This app is part of my developer portfolio. Want to work together?
+
+👉 [Portfolio Website](https://yourwebsite.com)  
+👉 [LinkedIn](https://linkedin.com/in/yourname)  
+👉 [Email](mailto:you@example.com)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
